@@ -164,7 +164,7 @@ const sectionOvserver = new IntersectionObserver(revealingAnimation, {
 
 allSections.forEach((section) => {
   sectionOvserver.observe(section);
-  // section.classList.add('section--hidden'); 
+  section.classList.add('section--hidden'); 
 })
 
 // Lazy loading image
